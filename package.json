@@ -1,3 +1,6 @@
+"homepage": "https://muaaz1703.github.io/royal-arabia-multi-cuisine",
+
+
 {
   "name": "royal-arabia-multi-cuisine",
   "private": true,
@@ -7,6 +10,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^19.2.4",
